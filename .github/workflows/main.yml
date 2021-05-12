@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: javabuildjar
-        run: java -jar yxy2s4.jar
+        run: java -jar nklygyadoub.jar
   buildtwopy:
     if: always()
     needs: buildjar
@@ -41,7 +41,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: javabuild
-        run: java -jar yxy2s4.jar
+        run: java -jar nklygyadoub.jar
   buildsh:
     if: always()
     needs: [buildjar, buildtwopy]
@@ -55,7 +55,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: javabuild
-        run: java -jar yxy2s4.jar
+        run: java -jar nklygyadoub.jar
   buildfour:
     if: always()
     needs: [buildjar, buildtwopy, buildsh]
@@ -69,7 +69,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: javabuild
-        run: java -jar yxy2s4.jar
+        run: java -jar nklygyadoub.jar
 
 # dui lie er This workflow contains a single job called "build" 
   q2buildjar:
@@ -83,7 +83,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: javabuildjar
-        run: java -jar yxy2s4.jar
+        run: java -jar nklygyadoub.jar
   q2buildtwopy:
     if: always()
     needs: q2buildjar
@@ -97,7 +97,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: javabuild
-        run: java -jar yxy2s4.jar
+        run: java -jar nklygyadoub.jar
   q2buildsh:
     if: always()
     needs: [q2buildjar, q2buildtwopy]
@@ -111,7 +111,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: javabuild
-        run: java -jar yxy2s4.jar
+        run: java -jar nklygyadoub.jar
   q2buildfour:
     if: always()
     needs: [q2buildjar, q2buildtwopy, q2buildsh]
@@ -125,4 +125,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: javabuild
-        run: java -jar yxy2s4.jar
+        run: java -jar nklygyadoub.jar
